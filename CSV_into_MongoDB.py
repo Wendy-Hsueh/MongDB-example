@@ -3,10 +3,9 @@ import pandas as pd
 import datetime
 import time, jieba
 
-_client = MongoClient('localhost:27017',username='KddEoc414o6',password='eS414o6kdd',authMechanism='MONGODB-CR')
-_db = _client.eoc
-_Citys = _db.Citys
-
+_client = MongoClient('localhost:27017',username='Your_username',password='Your_password',authMechanism='MONGODB-CR')
+_db = _client.Your_db_name
+_Citys = _db.Your_table_name
 
 countrys = pd.read_csv('./f1452156319799.csv')
 
