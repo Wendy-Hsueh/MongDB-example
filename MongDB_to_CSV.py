@@ -4,8 +4,8 @@ import datetime, csv, codecs
 import time, jieba
 
 _client = MongoClient('localhost:27017',username='Your_username',password='Your_password',authMechanism='MONGODB-CR')
-_db = _client.eoc
-_message = _db.message
+_db = _client..Your_db_name
+_message = _db..Your_table_name
 
 i = 0
 cursor = _message.find()
