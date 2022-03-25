@@ -3,7 +3,7 @@ import pandas as pd
 import datetime
 import time, jieba
 
-_client = MongoClient('localhost:27017',username='Your_username',password='Your_password',authMechanism='MONGODB-CR')
+_client = MongoClient('localhost',username='Your_username',password='Your_password',authMechanism='MONGODB-CR')
 _db = _client.Your_db_name
 _Citys = _db.Your_table_name
 
